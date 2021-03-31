@@ -1,0 +1,26 @@
+{
+    "name": "rachid/server-planinng",
+    "description": "A simple server-calculater vms composer package",
+    "type": "library",
+    "license": "",
+    "authors": [
+        {
+            "name": "Rachid Medjrab",
+            "email": "rachidmatriss21@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"src\\": "src/"}
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "phpunit/phpunit-selenium": "*",
+        "php-webdriver/webdriver":"1.8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "pcov/clobber": "^2.0"
+    }
+
+}
